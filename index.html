@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+  .box2 {
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
+body {
+  background: linear-gradient(to right, blue, red);
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.profile-box {
+  text-align: center;
+}
+
+.profile-box img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="box2">
+      <h1 class="title">My Profile</h1>
+      </div>
+    
+    <div class="grid">
+      
+      <div class="box profile-box">
+        <img src="who can't be moved.jpeg" alt="profile">
+        <h3>Pezek Who Can't Be Moved</h3>
+        <p>SMK An-Nur</p>
+        <p>Depok</p>
+      </div>
+
+      <div class="box">
+        <h3>Data Diri</h3>
+        <p><b>Full Name:</b> Muhammad Ma'sum</p>
+        <p><b>Email:</b> kingspplg1@gmail.com</p>
+        <p><b>Phone:</b> 085714041680</p>
+        <p><b>Address:</b> Depok</p>
+      </div>
+
+      <div class="box">
+        <h3>Social Media</h3>
+        <p>Instagram: wrdnsha</p>
+        <p>Twitter: i don't know</p>
+        <p>LinkedIn: waduhhh</p>
+      </div>
+
+      <div class="box">
+        <h3>Project</h3>
+        <p>Website Portfolio</p>
+        <p>Landing Page UMKM</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
